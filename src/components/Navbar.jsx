@@ -10,19 +10,24 @@ export default function Navbar () {
 			</Link>
 
 			<NavLink to={"/"} className={({isActive}) => {
-                return isActive ? "active" : ""
-            }}>
+				return isActive ? "active" : ""
+			}}  >
 				<h3>Home</h3>
 			</NavLink>
 			<NavLink to={"/about"} className={({isActive}) => {
-                return isActive ? "active" : ""
-            }}>
+				return isActive ? "active" : ""
+			}}  >
 				<h3>About</h3>
 			</NavLink>
 			<NavLink to={"/contact"} className={({isActive}) => {
-                return isActive ? "active" : ""
-            }} >
+				return isActive ? "active" : ""
+			}}  >
 				<h3>Contact</h3>
+			</NavLink>
+			<NavLink to={"/projects"} className={({isActive}) => {
+				return isActive ? "active" : ""
+			}}  >
+				<h3>Projects</h3>
 			</NavLink>
 		</nav>
 	);
