@@ -1,9 +1,9 @@
 
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './App.css';
-import HomePage from './pages/HomePage';
-import ContactPage from './pages/ContactPage';
-import AboutPage from './pages/AboutPage';
+import HomePage from '../pages/HomePage';
+import ContactPage from '../pages/ContactPage';
+import AboutPage from '../pages/AboutPage';
 
 // Convert an array of objects into <Routes> component containing <Route> components
 const someFancyRouter = createBrowserRouter([
